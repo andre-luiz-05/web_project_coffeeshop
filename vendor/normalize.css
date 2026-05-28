@@ -19,6 +19,9 @@ html {
 /**
  * Remova a margem em todos os navegadores.
  */
+ h2 {
+  margin: 0;
+}
 
 body {
   margin: 0;

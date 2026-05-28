@@ -209,16 +209,16 @@
   background-size: cover;
 }
 
+h2 {
+  margin: 0;
+}
+
 .reservation__title {
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-}
-
-h2 {
-  margin: 0;
 }
 
 .reservation__form {
