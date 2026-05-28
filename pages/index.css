@@ -8,6 +8,7 @@
   color: #000000;
 }
 
+/* ===== HEADER ===== */
 .header {
   position: relative;
   display: flex;
@@ -24,6 +25,7 @@
   background-size: cover;
 }
 
+/* ===== NAV ===== */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -58,6 +60,7 @@
   text-decoration: underline;
 }
 
+/* ===== HEADER CONTENT ===== */
 .header__title {
   max-width: 709px;
   font-family: Inter, Arial, sans-serif;
@@ -66,7 +69,8 @@
   font-size: 58px;
   line-height: 72px;
   letter-spacing: -1px;
-  margin: 183px 0 28px 0;
+  margin-top: 183px;
+  margin-bottom: 28px;
 }
 
 .header__span-accent {
@@ -86,7 +90,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  margin: 0;
+  margin-bottom: 0;
 }
 
 .header__image {
@@ -118,9 +122,10 @@
   font-size: 16px;
   line-height: 20px;
   color: #6f6f6f;
-  margin: 0;
+  margin-bottom: 0;
 }
 
+/* ===== RECIPES ===== */
 .recipes {
   background-color: #0a2850;
   background-image: url("../images/background_recipes.svg");
@@ -138,7 +143,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 0 0 24px 0;
+  margin-bottom: 24px;
 }
 
 .recipes__subtitle {
@@ -148,7 +153,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  margin: 0 0 80px 0;
+  margin-bottom: 80px;
 }
 
 .recipes__videos {
@@ -184,7 +189,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  margin: 0;
+  margin-bottom: 0;
 }
 
 .recipes__video-subtitle {
@@ -193,9 +198,10 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  margin: 0;
+  margin-bottom: 0;
 }
 
+/* ===== RESERVATION ===== */
 .reservation {
   display: flex;
   flex-direction: column;
@@ -215,13 +221,13 @@
   font-size: 44px;
   line-height: 52px;
   margin-bottom: 80px;
-  color: #000000;
 }
 
 .reservation__form {
-  margin: 0;
+  margin-bottom: 0;
 }
 
+/* ===== FORM ===== */
 .form {
   display: flex;
   flex-direction: column;
@@ -243,7 +249,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #000000;
   margin-bottom: 8px;
 }
 
@@ -253,7 +258,6 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  color: #000000;
   border: 1px solid #838383;
   border-radius: 4px;
   padding: 15px 20px;
@@ -284,7 +288,6 @@
   padding: 12px;
   cursor: pointer;
   width: 100%;
-  max-width: 385px;
   margin-bottom: 12px;
 }
 
@@ -301,8 +304,6 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  color: #000000;
-  cursor: pointer;
 }
 
 .form__checkbox {
@@ -311,9 +312,9 @@
   border-radius: 2px;
   cursor: pointer;
   accent-color: #2f80ed;
-  flex-shrink: 0;
 }
 
+/* ===== FOOTER ===== */
 .footer {
   background-color: #0a2850;
   padding: 60px 80px 40px 80px;
@@ -337,7 +338,7 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
-  margin: 0 0 16px 0;
+  margin-bottom: 16px;
 }
 
 .footer__social-links {
@@ -374,7 +375,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
-  margin: 0;
+  margin-bottom: 0;
 }
 
 html {
