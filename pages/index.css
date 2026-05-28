@@ -8,7 +8,6 @@
   color: #000000;
 }
 
-/* ===== HEADER ===== */
 .header {
   position: relative;
   display: flex;
@@ -25,7 +24,6 @@
   background-size: cover;
 }
 
-/* ===== NAV ===== */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -60,7 +58,6 @@
   text-decoration: underline;
 }
 
-/* ===== HEADER CONTENT ===== */
 .header__title {
   max-width: 709px;
   font-family: Inter, Arial, sans-serif;
@@ -125,7 +122,6 @@
   margin-bottom: 0;
 }
 
-/* ===== RECIPES ===== */
 .recipes {
   background-color: #0a2850;
   background-image: url("../images/background_recipes.svg");
@@ -201,7 +197,6 @@
   margin-bottom: 0;
 }
 
-/* ===== RESERVATION ===== */
 .reservation {
   display: flex;
   flex-direction: column;
@@ -220,14 +215,12 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin-bottom: 80px;
 }
 
 .reservation__form {
   margin-bottom: 0;
 }
 
-/* ===== FORM ===== */
 .form {
   display: flex;
   flex-direction: column;
@@ -314,7 +307,6 @@
   accent-color: #2f80ed;
 }
 
-/* ===== FOOTER ===== */
 .footer {
   background-color: #0a2850;
   padding: 60px 80px 40px 80px;
